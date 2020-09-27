@@ -1,17 +1,8 @@
 import React from "react";
-import Hello from "./Hello";
-import Wrapper from "./Wrapper";
+import Counter from "./Counter";
 
 function App() {
-  return (
-    <Wrapper>
-      <Hello name="react" color="red" isSpecial />
-      <Hello color="green" />
-    </Wrapper>
-  );
+  return <Counter />;
 }
 
-Hello.defaultProps = {
-  name: "이름없음",
-};
 export default App;
