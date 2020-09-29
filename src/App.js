@@ -1,8 +1,8 @@
 import React from "react";
-import InputSamle from "./InputSample";
+import UserList from "./UserList";
 
 function App() {
-  return <InputSamle />;
+  return <UserList />;
 }
 
 export default App;
